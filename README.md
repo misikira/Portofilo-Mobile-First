@@ -247,10 +247,7 @@ I would like to thank code reviwers and coding partner
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FAQ (optional) -->
 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
 
@@ -258,6 +255,6 @@ I would like to thank code reviwers and coding partner
 
 This project is [MIT](./LICENSE) licensed.
 
-find more here(<a href="https://choosealicense.com/licenses/mit/">find more here</a>)
+find more here <a href="https://choosealicense.com/licenses/mit/">find more here</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
