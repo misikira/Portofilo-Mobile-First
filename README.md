@@ -59,11 +59,9 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 Personal Portofilo Project <a name="about-project"></a>
 
-This is my personal portofilo project which showcase my experiance and skills i have
-
-**Personal Portofilo Project
+This is my personal portofilo project which showcase my experiance and skills i have.
 
 ## 🛠 Built With <a name="built-with"></a>
 
