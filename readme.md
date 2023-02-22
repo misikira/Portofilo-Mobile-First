@@ -115,7 +115,10 @@ Example command:
 
 👤 **Author1**
 
-- GitHub: [@misikira](https://github.com/misikira)
+-GitHub: [@misikira](https://github.com/misikira)<br>
+-Twitter: https://twitter.com/Misikirabate<br>
+-LinkedIn: https://www.linkedin.com/in/misikir-abate-043b7b140/
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -143,9 +146,10 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
 
-If you like this project...
+
+If you like this project reach me out at misikirteka@gmail.com
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -153,9 +157,8 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
 
-I would like to thank...
+I would like to thank code reviwers and coding partner
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
