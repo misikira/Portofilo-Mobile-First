@@ -202,8 +202,8 @@ Example:
 
 👤 **Author1**
 
--GitHub: https://github.com/misikira
--Twitter: https://twitter.com/Misikirabate
+-GitHub: https://github.com/misikira <br>
+-Twitter: https://twitter.com/Misikirabate<br>
 -LinkedIn: https://www.linkedin.com/in/misikir-abate-043b7b140
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
