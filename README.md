@@ -1,38 +1,5 @@
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
--->
-
-<div align="center">
-  
-  <br/>
-
-  <h3><b>Microverse README Template</b></h3>
-
-</div>
-
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -47,21 +14,18 @@ After you're finished please remove all the comments and instructions!
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Personal Portofilo Project <a name="about-project"></a>
+# 📖 [Portofilo] <a name="about-project"></a>
 
-This is my personal portofilo project which showcase my experiance and skills i have.
+> **[Portofilo]** is a web page that describes me and what I can do like build products for the WEB, features, and websites look through some of my work and experience! If you like what you see and have a project you need to be coded, don’t hesitate to contact me.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -72,33 +36,19 @@ This is my personal portofilo project which showcase my experiance and skills i 
 <details>
   <summary>Client</summary>
   <ul>
-    this project only uses css and html
+    <li><a href="https://reactjs.org/">HTML</a></li>
+    <li><a href="https://reactjs.org/">CSS</a></li>
   </ul>
 </details>
 
-<details>
-  <summary>Server</summary>
-  <ul>
-    currently working on it
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    currently working on it
-  </ul>
-</details>
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
-- Has section to tell more about me at the header
-- Got a section to showcase my previous projects
-- Has a contact form and socali media presences 
+- **[Mobile versrion]**
+- **[Mobile menu]**
+- **[Contact form]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -106,9 +56,7 @@ This is my personal portofilo project which showcase my experiance and skills i 
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
-
-currently working on it
+- Available soon
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -122,77 +70,40 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need a web browser and your favourite code editor.
-
-<!--
-Example command:
-
-```sh
- npx stylelint "**/*.{css,scss}" for checking styling issues
-```
- -->
+In order to run this project you need:
+- IDE(e.g.: Vscode, Sublime,...)
+- Browser
+- Git
 
 ### Setup
 
-Clone this repository to your desired folder and follow the normal steps for getting started
+Clone this repository to your desired folder:
 
-<!--
-Example commands:
 
 ```sh
   cd my-folder
-  git clone git@github.com:misikira/Portofilo-Mobile-First.git
+  git clone https://github.com/misikira/Portofilo-Mobile-First.git
 ```
---->
 
 ### Install
 
-Install this project with node package manager 
-
-<!--
-Example command:
+Install this project with:
 
 ```sh
-  cd my-project
-  npm init -y
+  cd Portofilo-Mobile-First
+  npm install
 ```
---->
 
 ### Usage
-npm start
+
+To run the project, execute the following command:
 
 <!--
 Example command:
 
 ```sh
-  rails server
+  Open the live server
 ```
---->
-
-### Run tests
-
-To run tests, run the following command:
-
-<!--
-Example command:
-
-```sh
- npx stylelint "**/*.{css,scss}"
-npx hint .
-```
---->
-
-### Deployment
-
-You can deploy this project using:currenly working on this feature
-
-<!--
-Example:
-
-```sh
-
-```
- -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -200,11 +111,15 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
+> Mention all of the collaborators of this project.
+
 👤 **Author1**
 
--GitHub: https://github.com/misikira <br>
+-GitHub: [@misikira](https://github.com/misikira)<br>
 -Twitter: https://twitter.com/Misikirabate<br>
--LinkedIn: https://www.linkedin.com/in/misikir-abate-043b7b140
+-LinkedIn: https://www.linkedin.com/in/misikir-abate-043b7b140/
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -212,11 +127,8 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
-- Section for projects
-- Section to show my skills 
-- Contact form
+- [ ] **[Animations]**
+- [ ] **[Email Validation]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -234,8 +146,9 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
+> Write a message to encourage readers to support your project
 
-If you like this project reach me out at misikirteka@gmail.com
+If you like this project...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -243,18 +156,16 @@ If you like this project reach me out at misikirteka@gmail.com
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank code reviwers and coding partner
+> Give credit to everyone who inspired your codebase.
+
+I would like to thank...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
-
-find more here <a href="https://choosealicense.com/licenses/mit/">find more here</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
