@@ -24,7 +24,7 @@ body {
 .header-img2 {
   height: 1.4rem;
   width: 2rem;
-  left: 28.4rem;
+  left: 33rem;
   top: 1.9rem;
   position: absolute;
 }
@@ -52,7 +52,7 @@ body {
 }
 
 .about-me-detail {
-  width: 28.8rem;
+  width: 75%;
   height: 14.7rem;
   top: 22.1rem;
   left: 1.6rem;
@@ -68,7 +68,7 @@ body {
 
 .colbrate-with-me {
   height: 5rem;
-  width: 28.8rem;
+  width: 90%;
   left: 1.6rem;
   top: 39rem;
   position: absolute;
@@ -80,8 +80,7 @@ body {
   line-height: 1.5rem;
   text-align: center;
   border: none;
-  margin-top: 2.8rem;
-  margin-bottom: 3.2rem;
+  margin: 2.4rem auto 3.2rem auto;;
 }
 
 .colbrate-with-me:hover {
@@ -91,9 +90,12 @@ body {
 }
 
 .home-page-img1 {
-  height: 160px;
-  width: 320px;
-  top: 472px;
+  background-image: url(./img/Thur.svg);
+  height: 16rem;
+  width: 32rem;
+  top: 47.2rem;
   position: absolute;
   margin-top: 3.2rem;
+  background-position: center
+  
 }
