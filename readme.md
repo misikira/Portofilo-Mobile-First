@@ -164,6 +164,6 @@ I would like to thank code reviwers and coding partner
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT] <a href="https://choosealicense.com/licenses/mit/">MIT</a>licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
