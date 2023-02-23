@@ -6,6 +6,7 @@ body {
   left: 615.8rem;
   top: -216.4rem;
   box-sizing: border-box;
+  margin: 0;
 }
 
 .toolbar-header {
@@ -47,7 +48,6 @@ body {
   text-align: left;
   color: #1a2236;
   text-transform: capitalize;
-  margin-left: 1.6rem;
   margin-right: 8.4rem;
 }
 
@@ -81,7 +81,6 @@ body {
   text-align: center;
   border: none;
   margin-top: 2.2rem;
-  margin-left: 1.6rem;
   margin-bottom: 3.2rem;
 }
 
@@ -89,4 +88,12 @@ body {
   border: 1px solid #1a2236;
   background-color: #fff;
   color: #1a2236;
+}
+
+.home-page-img1 {
+  height: 160px;
+  width: 320px;
+  top: 472px;
+  position: absolute;
+  margin-top: 3.2rem;
 }
