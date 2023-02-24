@@ -271,6 +271,12 @@ body {
   align-items: center;
 }
 
+.btn-project-more:hover {
+  border: 1px solid #1a2236;
+  background-color: #fff;
+  color: #1a2236;
+}
+
 .btn-project-more-arrow {
   height: 1.5346206665039062rem;
   width: 2.0570680618286133rem;
@@ -419,6 +425,12 @@ body {
   align-items: center;
 }
 
+.project2-btn-project-more:hover {
+  border: 1px solid #1a2236;
+  background-color: #fff;
+  color: #1a2236;
+}
+
 .project2-btn-project-more-arrow {
   height: 1.5346206665039062rem;
   width: 2.0570680618286133rem;
@@ -564,6 +576,12 @@ body {
   color: #fff;
   border: 1px solid #fff;
   align-items: center;
+}
+
+.project3-btn-project-more:hover {
+  border: 1px solid #1a2236;
+  background-color: #fff;
+  color: #1a2236;
 }
 
 .project3-btn-project-more-arrow {
@@ -714,6 +732,12 @@ body {
   align-items: center;
 }
 
+.project4-btn-project-more:hover {
+  border: 1px solid #1a2236;
+  background-color: #fff;
+  color: #1a2236;
+}
+
 .project4-btn-project-more-arrow {
   height: 1.5346206665039062rem;
   width: 2.0570680618286133rem;
@@ -861,6 +885,12 @@ body {
   align-items: center;
 }
 
+.project5-btn-project-more:hover {
+  border: 1px solid #1a2236;
+  background-color: #fff;
+  color: #1a2236;
+}
+
 .project5-btn-project-more-arrow {
   height: 1.5346206665039062rem;
   width: 2.0570680618286133rem;
@@ -1005,6 +1035,12 @@ body {
   color: #fff;
   border: 1px solid #fff;
   align-items: center;
+}
+
+.project6-btn-project-more:hover {
+  border: 1px solid #1a2236;
+  background-color: #fff;
+  color: #1a2236;
 }
 
 .project6-btn-project-more-arrow {
