@@ -3,11 +3,12 @@ html {
 }
 
 body {
-  left: 615.8rem;
-  top: -216.4rem;
+  left: 110rem;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  position: absolute;
+  justify-items: center;
 }
 
 .toolbar-header {
@@ -81,7 +82,8 @@ body {
   margin: 2.4rem auto 3.2rem auto;
 }
 
-.colbrate-with-me:hover {
+.colbrate-with-me:hover,
+:active {
   border: 1px solid #1a2236;
   background-color: #fff;
   color: #1a2236;
@@ -271,7 +273,8 @@ body {
   align-items: center;
 }
 
-.btn-project-more:hover {
+.btn-project-more:hover,
+:active {
   border: 1px solid #1a2236;
   background-color: #fff;
   color: #1a2236;
@@ -425,7 +428,8 @@ body {
   align-items: center;
 }
 
-.project2-btn-project-more:hover {
+.project2-btn-project-more:hover,
+:active {
   border: 1px solid #1a2236;
   background-color: #fff;
   color: #1a2236;
@@ -578,7 +582,8 @@ body {
   align-items: center;
 }
 
-.project3-btn-project-more:hover {
+.project3-btn-project-more:hover,
+:active {
   border: 1px solid #1a2236;
   background-color: #fff;
   color: #1a2236;
@@ -732,7 +737,8 @@ body {
   align-items: center;
 }
 
-.project4-btn-project-more:hover {
+.project4-btn-project-more:hover,
+:active {
   border: 1px solid #1a2236;
   background-color: #fff;
   color: #1a2236;
@@ -885,7 +891,8 @@ body {
   align-items: center;
 }
 
-.project5-btn-project-more:hover {
+.project5-btn-project-more:hover,
+:active {
   border: 1px solid #1a2236;
   background-color: #fff;
   color: #1a2236;
@@ -1037,7 +1044,8 @@ body {
   align-items: center;
 }
 
-.project6-btn-project-more:hover {
+.project6-btn-project-more:hover,
+:active {
   border: 1px solid #1a2236;
   background-color: #fff;
   color: #1a2236;
@@ -1098,6 +1106,12 @@ body {
   background-color: #1a2236;
 }
 
+.get-my-cv:hover {
+  border: 1px solid #1a2236;
+  background-color: #fff;
+  color: #1a2236;
+}
+
 .get-my-cv-arrow {
   height: 2.4rem;
   width: 2.4rem;
@@ -1148,8 +1162,8 @@ body {
 .hash {
   height: 10.2rem;
   width: 10.2rem;
-  left: 19.3rem;
-  top: 335.5rem;
+  left: 20.2rem;
+  top: 336.6rem;
   position: absolute;
 }
 
