@@ -7,6 +7,7 @@ body {
   top: -216.4rem;
   box-sizing: border-box;
   margin: 0;
+  padding: 0;
 }
 
 .toolbar-header {
@@ -23,8 +24,7 @@ body {
 
 .header-img2 {
   height: 1.4rem;
-  width: 2rem;
-  left: 33rem;
+  left: 30rem;
   top: 1.9rem;
   position: absolute;
 }
@@ -48,7 +48,6 @@ body {
   text-align: left;
   color: #1a2236;
   text-transform: capitalize;
-  margin-right: 8.4rem;
 }
 
 .about-me-detail {
@@ -63,7 +62,6 @@ body {
   letter-spacing: -0.01em;
   text-align: left;
   position: absolute;
-  padding-top: 17px;
 }
 
 .colbrate-with-me {
@@ -122,6 +120,7 @@ body {
 .card-container {
   display: grid;
   grid-template-columns: auto;
+  justify-content: center;
 }
 
 .project-name {
@@ -141,6 +140,10 @@ body {
   position: absolute;
   padding-top: 1rem;
   margin-top: -1rem;
+}
+
+.card1 {
+  width: 32rem;
 }
 
 .project1-img {
@@ -268,6 +271,12 @@ body {
   align-items: center;
 }
 
+.btn-project-more:hover {
+  border: 1px solid #1a2236;
+  background-color: #fff;
+  color: #1a2236;
+}
+
 .btn-project-more-arrow {
   height: 1.5346206665039062rem;
   width: 2.0570680618286133rem;
@@ -281,6 +290,7 @@ body {
   display: flex;
   flex-direction: column;
   position: relative;
+  width: 32rem;
 }
 
 .project2-img {
@@ -413,6 +423,12 @@ body {
   color: #fff;
   border: 1px solid #fff;
   align-items: center;
+}
+
+.project2-btn-project-more:hover {
+  border: 1px solid #1a2236;
+  background-color: #fff;
+  color: #1a2236;
 }
 
 .project2-btn-project-more-arrow {
@@ -560,6 +576,12 @@ body {
   color: #fff;
   border: 1px solid #fff;
   align-items: center;
+}
+
+.project3-btn-project-more:hover {
+  border: 1px solid #1a2236;
+  background-color: #fff;
+  color: #1a2236;
 }
 
 .project3-btn-project-more-arrow {
@@ -710,6 +732,12 @@ body {
   align-items: center;
 }
 
+.project4-btn-project-more:hover {
+  border: 1px solid #1a2236;
+  background-color: #fff;
+  color: #1a2236;
+}
+
 .project4-btn-project-more-arrow {
   height: 1.5346206665039062rem;
   width: 2.0570680618286133rem;
@@ -857,6 +885,12 @@ body {
   align-items: center;
 }
 
+.project5-btn-project-more:hover {
+  border: 1px solid #1a2236;
+  background-color: #fff;
+  color: #1a2236;
+}
+
 .project5-btn-project-more-arrow {
   height: 1.5346206665039062rem;
   width: 2.0570680618286133rem;
@@ -1001,6 +1035,12 @@ body {
   color: #fff;
   border: 1px solid #fff;
   align-items: center;
+}
+
+.project6-btn-project-more:hover {
+  border: 1px solid #1a2236;
+  background-color: #fff;
+  color: #1a2236;
 }
 
 .project6-btn-project-more-arrow {
