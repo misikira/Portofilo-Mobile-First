@@ -3,10 +3,12 @@ html {
 }
 
 body {
-  left: 615.8rem;
-  top: -216.4rem;
+  left: 110rem;
   box-sizing: border-box;
   margin: 0;
+  padding: 0;
+  position: absolute;
+  justify-items: center;
 }
 
 .toolbar-header {
@@ -23,8 +25,7 @@ body {
 
 .header-img2 {
   height: 1.4rem;
-  width: 2rem;
-  left: 33rem;
+  left: 30rem;
   top: 1.9rem;
   position: absolute;
 }
@@ -48,7 +49,6 @@ body {
   text-align: left;
   color: #1a2236;
   text-transform: capitalize;
-  margin-right: 8.4rem;
 }
 
 .about-me-detail {
@@ -63,7 +63,6 @@ body {
   letter-spacing: -0.01em;
   text-align: left;
   position: absolute;
-  padding-top: 17px;
 }
 
 .colbrate-with-me {
@@ -83,7 +82,8 @@ body {
   margin: 2.4rem auto 3.2rem auto;
 }
 
-.colbrate-with-me:hover {
+.colbrate-with-me:hover,
+:active {
   border: 1px solid #1a2236;
   background-color: #fff;
   color: #1a2236;
@@ -97,4 +97,1159 @@ body {
   position: absolute;
   margin-top: 3.2rem;
   background-position: center;
+}
+
+.head-projects {
+  height: 5rem;
+  width: 18.1rem;
+  left: 1.6rem;
+  top: 67.2rem;
+  font-family: Playfair Display, sans-serif;
+  font-size: 5rem;
+  font-weight: 400;
+  line-height: 5rem;
+  text-align: left;
+  position: absolute;
+  text-transform: capitalize;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+}
+
+.project-name {
+  height: 1.6rem;
+  width: 26.4rem;
+  left: 2rem;
+  border-radius: nullpx;
+  font-family: Poppins, sans-serif;
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.6rem;
+  text-align: left;
+  color: #fff;
+  font-style: normal;
+  vertical-align: top;
+  top: 96rem;
+  position: absolute;
+  padding-top: 1rem;
+  margin-top: -1rem;
+}
+
+.card1 {
+  width: 32rem;
+}
+
+.project1-img {
+  width: 32rem;
+  height: 18.6rem;
+  top: 75.4rem;
+  color: #ffff;
+  border: 0.33px solid #ffffff1a;
+  position: absolute;
+  padding-top: 3.2rem;
+}
+
+.project1-img2 {
+  width: 32rem;
+  height: 15.6rem;
+  margin-bottom: 1rem;
+  top: 94rem;
+  color: #1a2236;
+  background-color: #1a2236;
+  border: 0.333333px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(0.5px);
+  position: absolute;
+}
+
+.skilsets {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  gap: 1rem;
+  top: 99.2rem;
+  margin-top: -1.5rem;
+}
+
+.span-text {
+  height: 0.8rem;
+  width: 4.9rem;
+  left: 3rem;
+  font-family: Poppins, sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 80%;
+  color: #1a2236;
+  text-align: center;
+  margin-top: 2.2rem;
+  padding: 0.6px 1rem;
+  vertical-align: super;
+}
+
+.project1-skills {
+  height: 2rem;
+  width: 6.9rem;
+  left: 2rem;
+  top: 99.2rem;
+  background: #98dede;
+  margin-top: 1.6rem;
+  position: absolute;
+}
+
+.project1-skills3 {
+  width: 7.4rem;
+  height: 2rem;
+  left: 19.6rem;
+  top: 99.2rem;
+  background-color: #98dede;
+  position: absolute;
+  margin-top: 1.6rem;
+}
+
+.project1-skills2 {
+  width: 8.7rem;
+  height: 2rem;
+  left: 9.9rem;
+  background-color: #98dede;
+  position: absolute;
+  top: 99.2rem;
+  margin-top: 1.6rem;
+}
+
+.span-text1 {
+  height: 0.8rem;
+  width: 6.7rem;
+  left: 10.9rem;
+  font-family: Poppins, sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 0.827rem;
+  color: #1a2236;
+  text-align: center;
+  margin-top: 2.2rem;
+  padding: 6px 1rem;
+  vertical-align: super;
+}
+
+.span-text2 {
+  height: 0.8rem;
+  width: 5.4rem;
+  left: 20.6rem;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 0.827rem;
+  color: #1a2236;
+  text-align: center;
+  margin-top: 2.2rem;
+  padding: 0.6rem 1rem;
+  vertical-align: super;
+}
+
+.btn-project-more {
+  height: 4.4rem;
+  width: 17.8rem;
+  left: 2rem;
+  top: 103.2rem;
+  margin-top: 1rem;
+  position: absolute;
+  font-family: Poppins, sans-serif;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 2.4rem;
+  text-align: center;
+  background-color: #1a2236;
+  color: #fff;
+  border: 1px solid #fff;
+  align-items: center;
+}
+
+.btn-project-more:hover,
+:active {
+  border: 1px solid #1a2236;
+  background-color: #fff;
+  color: #1a2236;
+}
+
+.btn-project-more-arrow {
+  height: 1.5346206665039062rem;
+  width: 2.0570680618286133rem;
+  left: 16rem;
+  top: 104.59530029296875rem;
+  vertical-align: text-top;
+  text-align: center;
+}
+
+.project2-card {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 32rem;
+}
+
+.project2-img {
+  top: 109.6rem;
+  height: 18.6rem;
+  width: 32rem;
+  position: absolute;
+}
+
+.project2-img2 {
+  height: 15.6rem;
+  width: 32rem;
+  top: 128.2rem;
+  position: absolute;
+}
+
+.project2-project-name {
+  height: 1.6rem;
+  width: 26.4rem;
+  left: 2rem;
+  font-family: Poppins, sans-serif;
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.6rem;
+  text-align: left;
+  color: #fff;
+  font-style: normal;
+  vertical-align: top;
+  top: 130.2rem;
+  position: absolute;
+  padding-top: 1rem;
+  margin-top: -1rem;
+}
+
+.project2-skilsets {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  gap: 1rem;
+  margin-top: 2rem;
+  top: 130.8rem;
+  position: absolute;
+}
+
+.project2-span-text {
+  height: 0.8rem;
+  width: 4.9rem;
+  left: 3rem;
+  font-family: Poppins, sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 80%;
+  color: #1a2236;
+  text-align: center;
+  margin-top: 2.2rem;
+  padding: 0.6rem 1rem;
+  vertical-align: super;
+}
+
+.project2-skills {
+  height: 2rem;
+  width: 6.9rem;
+  left: 2rem;
+  background: #98dede;
+  margin-top: 1.6rem;
+  position: absolute;
+}
+
+.project2-skills2 {
+  width: 8.7rem;
+  height: 2rem;
+  left: 9.9rem;
+  background-color: #98dede;
+  position: absolute;
+  margin-top: 1.6rem;
+}
+
+.project2-span-text1 {
+  height: 0.8rem;
+  width: 6.7rem;
+  left: 10.9rem;
+  font-family: Poppins, sans-serif;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 8.27px;
+  color: #1a2236;
+  text-align: center;
+  margin-top: 2.2rem;
+  padding: 0.6rem 1rem;
+  vertical-align: super;
+}
+
+.project2-skills3 {
+  width: 7.4rem;
+  height: 2rem;
+  left: 19.6rem;
+  background-color: #98dede;
+  position: absolute;
+  margin-top: 1.6rem;
+}
+
+.project2-span-text2 {
+  height: 0.8rem;
+  width: 5.4rem;
+  left: 20.6rem;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 08.27rem;
+  color: #1a2236;
+  text-align: center;
+  margin-top: 2.2rem;
+  padding: 0.6rem 1rem;
+  vertical-align: super;
+}
+
+.project2-btn-project-more {
+  height: 4.4rem;
+  width: 17.8rem;
+  left: 2rem;
+  top: 137.4rem;
+  position: absolute;
+  font-family: Poppins, sans-serif;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 2.4rem;
+  text-align: center;
+  background-color: #1a2236;
+  color: #fff;
+  border: 1px solid #fff;
+  align-items: center;
+}
+
+.project2-btn-project-more:hover,
+:active {
+  border: 1px solid #1a2236;
+  background-color: #fff;
+  color: #1a2236;
+}
+
+.project2-btn-project-more-arrow {
+  height: 1.5346206665039062rem;
+  width: 2.0570680618286133rem;
+  left: 16.6rem;
+  top: 104.59530029296875rem;
+  vertical-align: text-top;
+  text-align: center;
+}
+
+.project3-card {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.project3-img {
+  height: 18.6rem;
+  top: 143.8rem;
+  width: 32rem;
+  position: absolute;
+}
+
+.project3-img2 {
+  height: 15.6rem;
+  width: 32rem;
+  top: 162.4rem;
+  position: absolute;
+}
+
+.project3-project-name {
+  height: 1.6rem;
+  width: 26.4rem;
+  left: 2rem;
+  font-family: Poppins, sans-serif;
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.6rem;
+  text-align: left;
+  color: #fff;
+  font-style: normal;
+  vertical-align: top;
+  top: 1644px;
+  margin-top: -1rem;
+  position: absolute;
+  padding-top: 1rem;
+}
+
+.project3-skilsets {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  gap: 1rem;
+  margin-top: -1.6rem;
+  top: 167.6rem;
+  position: absolute;
+}
+
+.project3-span-text {
+  height: 0.8rem;
+  width: 4.9rem;
+  left: 3rem;
+  font-family: Poppins, sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 80%;
+  color: #1a2236;
+  text-align: center;
+  margin-top: 2.2rem;
+  padding: 0.6rem 1rem;
+  vertical-align: super;
+}
+
+.project3-skills {
+  height: 2rem;
+  width: 6.9rem;
+  left: 2rem;
+  background: #98dede;
+  margin-top: 1.6rem;
+  position: absolute;
+}
+
+.project3-skills2 {
+  width: 8.7rem;
+  height: 2rem;
+  left: 9.9rem;
+  background-color: #98dede;
+  position: absolute;
+  margin-top: 1.6rem;
+}
+
+.project3-span-text1 {
+  height: 0.8rem;
+  width: 6.7rem;
+  left: 10.9rem;
+  font-family: Poppins, sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 8.27px;
+  color: #1a2236;
+  text-align: center;
+  margin-top: 2.2rem;
+  padding: 0.6rem 1rem;
+  vertical-align: super;
+}
+
+.project3-skills3 {
+  width: 7.4rem;
+  height: 2rem;
+  left: 19.6rem;
+  background-color: #98dede;
+  position: absolute;
+  margin-top: 1.6rem;
+}
+
+.project3-span-text2 {
+  height: 0.8rem;
+  width: 5.4rem;
+  left: 20.6rem;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 0.827rem;
+  color: #1a2236;
+  text-align: center;
+  margin-top: 2.2rem;
+  padding: 0.6rem 1rem;
+  vertical-align: super;
+}
+
+.project3-btn-project-more {
+  height: 4.4rem;
+  width: 17.8rem;
+  left: 2rem;
+  top: 171.6rem;
+  position: absolute;
+  font-family: Poppins, sans-serif;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 2.4rem;
+  text-align: center;
+  background-color: #1a2236;
+  color: #fff;
+  border: 1px solid #fff;
+  align-items: center;
+}
+
+.project3-btn-project-more:hover,
+:active {
+  border: 1px solid #1a2236;
+  background-color: #fff;
+  color: #1a2236;
+}
+
+.project3-btn-project-more-arrow {
+  height: 1.5346206665039062rem;
+  width: 2.0570680618286133rem;
+  left: 16.6rem;
+  top: 104.59530029296875rem;
+  vertical-align: text-top;
+  text-align: center;
+}
+
+.project4-card {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.project4-img {
+  height: 18.6rem;
+  top: 178rem;
+  width: 32rem;
+  position: absolute;
+}
+
+.project4-img2 {
+  height: 15.6rem;
+  width: 32rem;
+  top: 196.6rem;
+  position: absolute;
+}
+
+.project4-project-name {
+  height: 1.6rem;
+  width: 26.4rem;
+  left: 2rem;
+  margin-top: -1rem;
+  font-family: Poppins, sans-serif;
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.6rem;
+  text-align: left;
+  color: #fff;
+  font-style: normal;
+  vertical-align: top;
+  top: 198.6rem;
+  position: absolute;
+  padding-top: 1rem;
+}
+
+.project4-skilsets {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  gap: 1rem;
+  margin-top: 2rem;
+  margin-top: -1.6rem;
+  top: 2018px;
+  position: absolute;
+}
+
+.project4-span-text {
+  height: 0.8rem;
+  width: 4.9rem;
+  left: 3rem;
+  font-family: Poppins, sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 80%;
+  color: #1a2236;
+  text-align: center;
+  margin-top: 2.2rem;
+  padding: 0.6rem 1rem;
+  vertical-align: super;
+}
+
+.project4-skills {
+  height: 2rem;
+  width: 6.9rem;
+  left: 2rem;
+  background: #98dede;
+  margin-top: 1.6rem;
+  position: absolute;
+}
+
+.project4-skills2 {
+  width: 8.7rem;
+  height: 2rem;
+  left: 9.9rem;
+  background-color: #98dede;
+  position: absolute;
+  margin-top: 1.6rem;
+}
+
+.project4-span-text1 {
+  height: 0.8rem;
+  width: 6.7rem;
+  left: 10.9rem;
+  font-family: Poppins, sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 8.27px;
+  color: #1a2236;
+  text-align: center;
+  margin-top: 2.2rem;
+  padding: 0.6rem 1rem;
+  vertical-align: super;
+}
+
+.project4-skills3 {
+  width: 7.4rem;
+  height: 2rem;
+  left: 19.6rem;
+  background-color: #98dede;
+  position: absolute;
+  margin-top: 1.6rem;
+}
+
+.project4-span-text2 {
+  height: 0.8rem;
+  width: 5.4rem;
+  left: 20.6rem;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 08.27rem;
+  color: #1a2236;
+  text-align: center;
+  margin-top: 2.2rem;
+  padding: 0.6rem 1rem;
+  vertical-align: super;
+}
+
+.project4-btn-project-more {
+  height: 4.4rem;
+  width: 17.8rem;
+  left: 2rem;
+  top: 205.8rem;
+  position: absolute;
+  font-family: Poppins, sans-serif;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 2.4rem;
+  text-align: center;
+  background-color: #1a2236;
+  color: #fff;
+  border: 1px solid #fff;
+  align-items: center;
+}
+
+.project4-btn-project-more:hover,
+:active {
+  border: 1px solid #1a2236;
+  background-color: #fff;
+  color: #1a2236;
+}
+
+.project4-btn-project-more-arrow {
+  height: 1.5346206665039062rem;
+  width: 2.0570680618286133rem;
+  left: 16.6rem;
+  top: 104.59530029296875rem;
+  vertical-align: text-top;
+  text-align: center;
+}
+
+.project5-card {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.project5-img {
+  height: 18.6rem;
+  top: 212.2rem;
+  width: 32rem;
+  position: absolute;
+}
+
+.project5-img2 {
+  height: 15.6rem;
+  width: 32rem;
+  top: 230.8rem;
+  position: absolute;
+}
+
+.project5-project-name {
+  height: 1.6rem;
+  width: 26.4rem;
+  left: 2rem;
+  font-family: Poppins, sans-serif;
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.6rem;
+  text-align: left;
+  color: #fff;
+  font-style: normal;
+  margin-top: -1rem;
+  vertical-align: top;
+  top: 232.8rem;
+  position: absolute;
+  padding-top: 1rem;
+}
+
+.project5-skilsets {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  gap: 1rem;
+  top: 236rem;
+  margin-top: -1.6rem;
+  position: absolute;
+}
+
+.project5-span-text {
+  height: 0.8rem;
+  width: 4.9rem;
+  left: 3rem;
+  font-family: Poppins, sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 80%;
+  color: #1a2236;
+  text-align: center;
+  vertical-align: super;
+  margin-top: 2.2rem;
+  padding: 0.6rem 1rem;
+}
+
+.project5-skills {
+  height: 2rem;
+  width: 6.9rem;
+  left: 2rem;
+  background: #98dede;
+  margin-top: 1.6rem;
+  position: absolute;
+}
+
+.project5-skills2 {
+  width: 8.7rem;
+  height: 2rem;
+  left: 9.9rem;
+  background-color: #98dede;
+  position: absolute;
+  margin-top: 1.6rem;
+}
+
+.project5-span-text1 {
+  height: 0.8rem;
+  width: 6.7rem;
+  left: 10.9rem;
+  font-family: Poppins, sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 8.27px;
+  color: #1a2236;
+  text-align: center;
+  margin-top: 2.2rem;
+  vertical-align: super;
+  padding: 0.6rem 1rem;
+}
+
+.project5-skills3 {
+  width: 7.49rem;
+  height: 2rem;
+  left: 19.6rem;
+  background-color: #98dede;
+  position: absolute;
+  margin-top: 1.6rem;
+}
+
+.project5-span-text2 {
+  height: 0.8rem;
+  width: 5.4rem;
+  left: 20.6rem;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 08.27rem;
+  color: #1a2236;
+  text-align: center;
+  vertical-align: super;
+  margin-top: 2.2rem;
+  padding: 0.6rem 1rem;
+}
+
+.project5-btn-project-more {
+  height: 4.4rem;
+  width: 17.89rem;
+  left: 2rem;
+  top: 240rem;
+  position: absolute;
+  font-family: Poppins, sans-serif;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 2.4rem;
+  text-align: center;
+  background-color: #1a2236;
+  color: #fff;
+  border: 1px solid #fff;
+  align-items: center;
+}
+
+.project5-btn-project-more:hover,
+:active {
+  border: 1px solid #1a2236;
+  background-color: #fff;
+  color: #1a2236;
+}
+
+.project5-btn-project-more-arrow {
+  height: 1.5346206665039062rem;
+  width: 2.0570680618286133rem;
+  left: 16.6rem;
+  top: 104.59530029296875rem;
+  vertical-align: text-top;
+  text-align: center;
+}
+
+.project6-card {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.project6-img {
+  height: 18.6rem;
+  top: 246.4rem;
+  width: 32rem;
+  position: absolute;
+}
+
+.project6-img2 {
+  height: 15.6rem;
+  width: 32rem;
+  top: 265rem;
+  position: absolute;
+}
+
+.project6-project-name {
+  height: 1.6rem;
+  width: 26.4rem;
+  left: 2rem;
+  font-family: Poppins, sans-serif;
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.6rem;
+  text-align: left;
+  color: #fff;
+  font-style: normal;
+  vertical-align: top;
+  top: 2670px;
+  position: absolute;
+  margin-top: -1rem;
+  padding-top: 1rem;
+}
+
+.project6-skilsets {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  gap: 1rem;
+  margin-top: -1.6rem;
+  top: 270.2rem;
+  position: absolute;
+}
+
+.project6-span-text {
+  height: 0.8rem;
+  width: 4.9rem;
+  left: 3rem;
+  font-family: Poppins, sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 80%;
+  color: #1a2236;
+  text-align: center;
+  margin-top: 2.2rem;
+  padding: 0.6rem 1rem;
+  vertical-align: super;
+}
+
+.project6-skills {
+  height: 2rem;
+  width: 6.9rem;
+  left: 2rem;
+  background: #98dede;
+  margin-top: 1.6rem;
+  position: absolute;
+}
+
+.project6-skills2 {
+  width: 8.7rem;
+  height: 2rem;
+  left: 9.9rem;
+  background-color: #98dede;
+  position: absolute;
+  margin-top: 1.6rem;
+}
+
+.project6-span-text1 {
+  height: 0.8rem;
+  width: 6.7rem;
+  left: 10.9rem;
+  font-family: Poppins, sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  color: #1a2236;
+  text-align: center;
+  margin-top: 2.2rem;
+  padding: 0.6rem 1rem;
+  vertical-align: super;
+}
+
+.project6-skills3 {
+  width: 7.49rem;
+  height: 2rem;
+  left: 19.6rem;
+  background-color: #98dede;
+  position: absolute;
+  margin-top: 1.6rem;
+}
+
+.project6-span-text2 {
+  height: 0.8rem;
+  width: 5.4rem;
+  left: 20.6rem;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 08.27rem;
+  color: #1a2236;
+  text-align: center;
+  margin-top: 2.2rem;
+  padding: 0.6rem 1rem;
+  vertical-align: super;
+}
+
+.project6-btn-project-more {
+  height: 4.49rem;
+  width: 17.8rem;
+  left: 2rem;
+  top: 274.2rem;
+  position: absolute;
+  font-family: Poppins, sans-serif;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 2.4rem;
+  text-align: center;
+  background-color: #1a2236;
+  color: #fff;
+  border: 1px solid #fff;
+  align-items: center;
+}
+
+.project6-btn-project-more:hover,
+:active {
+  border: 1px solid #1a2236;
+  background-color: #fff;
+  color: #1a2236;
+}
+
+.project6-btn-project-more-arrow {
+  height: 1.5346206665039062rem;
+  width: 2.0570680618286133rem;
+  left: 16.6rem;
+  top: 104.59530029296875rem;
+  vertical-align: text-top;
+  text-align: center;
+}
+
+.head-About {
+  height: 5rem;
+  width: 13.4rem;
+  left: 1.6rem;
+  top: 286.2rem;
+  border-radius: nullpx;
+  font-family: Playfair Display, sans-serif;
+  font-size: 5rem;
+  font-weight: 400;
+  line-height: 5rem;
+  text-align: left;
+  position: absolute;
+  color: #1a2236;
+  margin-top: 1.6rem;
+}
+
+.text-about {
+  height: 12.6rem;
+  width: 28.8rem;
+  left: 1.6rem;
+  top: 293.2rem;
+  font-family: Poppins, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2.1rem;
+  text-align: left;
+  color: #1a2236;
+  position: absolute;
+}
+
+.get-my-cv {
+  height: 5rem;
+  width: 28.8rem;
+  left: 1.6rem;
+  top: 309rem;
+  position: absolute;
+  border: none;
+  font-family: Poppins, sans-serif;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 2.4rem;
+  text-align: center;
+  color: #fff;
+  background-color: #1a2236;
+}
+
+.get-my-cv:hover {
+  border: 1px solid #1a2236;
+  background-color: #fff;
+  color: #1a2236;
+}
+
+.get-my-cv-arrow {
+  height: 2.4rem;
+  width: 2.4rem;
+  left: 20.1rem;
+  top: 310.3rem;
+  position: absolute;
+  color: #fff;
+  margin-left: 2rem;
+}
+
+.languages {
+  height: 28.9rem;
+  width: 28.9rem;
+  left: 1.6rem;
+  top: 318rem;
+  position: absolute;
+  background-color: #1c528a;
+}
+
+.languages p {
+  height: 3rem;
+  width: 11.6rem;
+  left: 6.6rem;
+  top: 323rem;
+  font-family: Poppins, sans-serif;
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 3rem;
+  text-align: left;
+  color: #fff;
+  padding-top: 5rem;
+  padding-left: 5rem;
+  padding-right: 12.3rem;
+}
+
+.languages-list {
+  height: 13.5rem;
+  width: 17.8rem;
+  left: 6.6rem;
+  font-family: Poppins, sans-serif;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 2.7rem;
+  letter-spacing: -0.0525em;
+  text-align: left;
+}
+
+.hash {
+  height: 10.2rem;
+  width: 10.2rem;
+  left: 20.2rem;
+  top: 336.6rem;
+  position: absolute;
+}
+
+ul li {
+  color: #fff;
+  font-family: Poppins, sans-serif;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 2.7rem;
+  left: 6.6rem;
+  letter-spacing: -0.0525em;
+  text-align: left;
+}
+
+.frameworks {
+  width: 28.9rem;
+  height: 28.9rem;
+  top: 348.5rem;
+  left: 1.6rem;
+  background-color: #e2505c;
+  position: absolute;
+}
+
+.frameworks p {
+  height: 3rem;
+  width: 11.6rem;
+  left: 6.6rem;
+  top: 323rem;
+  font-family: Poppins, sans-serif;
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 3rem;
+  text-align: left;
+  color: #fff;
+  padding-top: 5rem;
+  padding-left: 5rem;
+  padding-right: 12.3rem;
+}
+
+.frameworks-icon {
+  height: 9.6rem;
+  width: 9.6rem;
+  left: 20.9rem;
+  top: 367.8rem;
+  position: absolute;
+  color: #fff;
+}
+
+.frameworks-list {
+  font-family: Poppins, sans-serif;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 2.7rem;
+  letter-spacing: -0.0525em;
+  text-align: left;
+}
+
+.skills {
+  height: 28.9rem;
+  width: 28.9rem;
+  left: 1.5rem;
+  top: 379rem;
+  background-color: #febf52;
+  position: absolute;
+}
+
+.skills p {
+  height: 3rem;
+  width: 11.6rem;
+  left: 6.6rem;
+  top: 323rem;
+  font-family: Poppins, sans-serif;
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 3rem;
+  text-align: left;
+  color: #fff;
+  padding-top: 5rem;
+  padding-left: 5rem;
+  padding-right: 12.3rem;
+}
+
+.skills-icon {
+  height: 10.2rem;
+  width: 10.2rem;
+  left: 20.2rem;
+  top: 397.7rem;
+  position: absolute;
 }
