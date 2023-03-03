@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  left: 110rem;
+  left: 50rem;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -192,6 +192,7 @@ body {
   margin-top: 2.2rem;
   padding: 0.6px 1rem;
   vertical-align: super;
+  float: inline-start;
 }
 
 .project1-skills {
@@ -1107,6 +1108,7 @@ body {
 }
 
 .get-my-cv:hover {
+  transform: translate(10px);
   border: 1px solid #1a2236;
   background-color: #fff;
   color: #1a2236;
@@ -1252,4 +1254,197 @@ ul li {
   left: 20.2rem;
   top: 397.7rem;
   position: absolute;
+}
+
+.get-started-logo {
+  height: 74.01807403564453px;
+  width: 111px;
+  margin-left: 2px;
+  top: 4129px;
+  position: absolute;
+}
+
+.get-started {
+  background-color: #f9f9f9;
+}
+
+.Get-started-head {
+  height: 50px;
+  width: 249px;
+  left: 16px;
+  top: 4170px;
+  border-radius: nullpx;
+  font-family: Playfair Display, sans-serif;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 50px;
+  text-align: left;
+  color: #1a2236;
+  position: absolute;
+  padding-left: 18px;
+}
+
+.Get-started-text {
+  height: 63px;
+  width: 288px;
+  left: 16px;
+  top: 4275px;
+  border-radius: nullpx;
+  font-family: Poppins, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  position: absolute;
+  color: #1a2236;
+  padding-left: 18px;
+}
+
+.input-name {
+  height: 52px;
+  width: 288px;
+  left: 16px;
+  top: 4400px;
+  border-radius: 4px;
+  text-transform: capitalize;
+  font-family: Poppins, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  color: #1a2236;
+  margin-top: 8px;
+}
+
+input::placeholder {
+  height: 21px;
+  width: 73px;
+  left: 32px;
+  top: 4423px;
+  border-radius: nullpx;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+  margin-top: 8px;
+  font-family: Poppins, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+}
+
+.start-colla {
+  height: 44px;
+  width: 300px;
+  top: 214px;
+  position: absolute;
+  margin-top: -20px;
+  color: #fff;
+  font-family: Poppins, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  background-color: #1a2236;
+  border: none;
+}
+
+.start-colla:hover,
+:active {
+  border: 1px solid #1a2236;
+  background-color: #fff;
+  color: #1a2236;
+}
+
+.form {
+  height: 52px;
+  width: 288px;
+  left: 16px;
+  top: 4445px;
+  border-radius: 4px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 32px;
+}
+
+.form-input {
+  height: 52px;
+  width: 288px;
+  left: 32px;
+  top: 4423px;
+  border-radius: 4px;
+  font-family: Poppins, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 100%;
+  vertical-align: top;
+  text-align: left;
+  color: #1a2236;
+  font-style: normal;
+  border: 1px solid;
+}
+
+.message-feild {
+  height: 112px;
+  width: 295px;
+  left: 32px;
+  top: 4535px;
+  border-radius: 4px;
+  font-family: Poppins, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  border: 1px solid;
+}
+
+.form-input::placeholder {
+  height: 21px;
+  width: 73px;
+  left: 32px;
+  top: 4223px;
+  border-radius: nullpx;
+  font-family: Poppins, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  font-style: bold;
+}
+
+.your-email {
+  margin-left: 2px;
+  margin-top: 18px;
+  position: absolute;
+  height: 15px;
+  width: 54px;
+  left: 2px;
+  font-family: Poppins, sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 15px;
+  text-align: left;
+  color: #747474;
+}
+
+.your-name {
+  margin-left: 5px;
+  font-family: Poppins, sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 15px;
+  text-align: left;
+  position: absolute;
+  top: -82px;
 }
