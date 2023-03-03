@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+    
     <header class="toolbar-header">
         <img src="./img/heade-side-img.svg" class="header-img1" alt="header logo image">
         <nav>
@@ -245,17 +246,16 @@
                         <div class="form-item">
                             <label for="name" class="your-name" >Your name</label><br>
                             <input class="input-name" type="text" placeholder="Misikir" id="name"
-                             label="Your name" maxlength="15" name="name" >
+                             label="Your name" maxlength="30" name="name" required>
                         </div>
                         <div class="form-item-email">
                             <label for="email-feild" class="your-email">Your email</label><br>
                             <input type="email" required placeholder="|" id="email-feild"
-                            class="form-input" label="Your email" name="email" name="your message">
+                            class="form-input" label="Your email" name="email" name="your message" required>
                         </div>
-                
-                        <div class="form-item">
+                 <div class="form-item">
                             <textarea name="message" cols="30" rows="10" maxlength="500" placeholder="Enter your message here..." class="message-feild" required></textarea>
-                            <button class="start-colla" type="submit">
+                            <button class="start-colla" type="submit" >
                                 start collaboration
                             </button>
                         </div>
