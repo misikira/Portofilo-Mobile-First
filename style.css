@@ -1105,19 +1105,10 @@ body {
   text-align: center;
   color: #fff;
   background-color: #1a2236;
-  
-}
-
-.get-my-cv:hover {
-  transform: translate(00px);
 }
 
 .get-my-cv:hover {
   transform: translate(10px);
-}
-
-
-.get-my-cv:hover {
   border: 1px solid #1a2236;
   background-color: #fff;
   color: #1a2236;
